@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff7f4;
+  --foreground: #2d2a32;
+  --muted: #fdeff4;
+  --muted-foreground: #6b6575;
+  --accent-peach: #f9b4ab;
+  --accent-lavender: #c9c3f7;
+  --accent-mint: #b8f2e6;
+  --accent-rose: #fbc4d4;
+  --risk-low: #3bb273;
+  --risk-medium: #f7c948;
+  --risk-high: #f45b69;
+  --surface: #ffffff;
+  --surface-elevated: rgba(255, 255, 255, 0.78);
+  --gradient-soft: linear-gradient(135deg, #ffe6f2 0%, #e6f6ff 50%, #fff7f4 100%);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-peach: var(--accent-peach);
+  --color-accent-lavender: var(--accent-lavender);
+  --color-accent-mint: var(--accent-mint);
+  --color-accent-rose: var(--accent-rose);
+  --color-risk-low: var(--risk-low);
+  --color-risk-medium: var(--risk-medium);
+  --color-risk-high: var(--risk-high);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--gradient-soft);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.glass-card {
+  background: var(--surface-elevated);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 24px 64px rgba(238, 113, 146, 0.18);
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #fbc4d4, #c9c3f7, #b8f2e6);
+  z-index: -1;
+  opacity: 0.6;
+}
