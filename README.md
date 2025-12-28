@@ -6,21 +6,19 @@
 
 ---
 
-## 🎥 Demo (coming soon)
+## 🎥 Demo 
 
-> _Space reserved for the product walk-through video. Drop `docs/demo.mp4` and embed it here when ready._
+> https://drive.google.com/file/d/1nUDe0se7cpKuLz-raxNwh4e6oFfKkLG4/view?usp=drivesdk
 
 ## 📸 Screenshots
 
 | Feature | Preview |
 | --- | --- |
-| Splash & Onboarding | _coming soon_ |
-| Pregnancy Intake Wizard | _coming soon_ |
-| AI Risk Prediction & Explainability | _coming soon_ |
-| Personalised Action Plan | _coming soon_ |
-| Analytics Dashboard | _coming soon_ |
-
-Add high-res images to `docs/screenshots/` and replace the placeholders with Markdown image links.
+| Splash & Onboarding | <img width="1593" height="782" alt="image" src="https://github.com/user-attachments/assets/e871570a-b3c9-4f36-92d5-b36b56f0f2e1" /> |
+| Pregnancy Intake Wizard | <img width="1383" height="848" alt="image" src="https://github.com/user-attachments/assets/a41ee780-be51-4bd0-b167-076ff7c30adb" /> |
+| AI Risk Prediction & Explainability | <img width="1412" height="709" alt="image" src="https://github.com/user-attachments/assets/da98998e-61cd-4133-ba1c-444b86bad725" /> |
+| Personalised Action Plan | <img width="1483" height="628" alt="image" src="https://github.com/user-attachments/assets/fa75ebda-3556-42b1-a752-abeea8dc2645" /> |
+| Medicine Dashboard | <img width="1486" height="523" alt="image" src="https://github.com/user-attachments/assets/4bc29e39-8a07-470e-93d7-e7910a4efe96" /> |
 
 ---
 
